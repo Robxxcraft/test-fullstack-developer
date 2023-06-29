@@ -57,7 +57,7 @@ php artisan db:seed
 ```
 <br />
 
-### 8. Jalankan dua perintah ini terminal yang berbeda
+### 8. Jalankan dua perintah ini di terminal yang berbeda
 
 ```sh
 1. npm run dev
