@@ -4,6 +4,7 @@ Beberapa aplikasi yang harus diinstal:
 
 - Composer.
 - Xampp.
+- Node js & NPM.
 
 ### 1. Jalankan perintah dibawah ini untuk menyalin project
 
