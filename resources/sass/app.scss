@@ -1,0 +1,65 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+$primary: #33ac4d;
+$secondary: #d4ebd6;
+$dark: #a3a3a3;
+$light: #e5e5e5;
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+a {
+    text-decoration: none;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-darkgray {
+    color: #374151;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.auth-box {
+    z-index: 1;
+    box-shadow: 0 2px 4px 0 whitesmoke, 0 2px 2px 0 whitesmoke;
+}
+
+.auth-link {
+    background-color: whitesmoke;
+    color: rgb(201, 196, 190);
+    border-top: 4px solid rgb(201, 196, 190);
+
+    &-left {
+        border-bottom-right-radius: 6px;
+    }
+
+    &-right {
+        border-bottom-left-radius: 6px;
+    }
+
+    &-actived {
+        border-top: 4px solid #33ac4d;
+        @extend .bg-white, .text-primary;
+    }
+    
+}
+
+.auth-link:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.slideY-enter-from, .slideY-leave-to {
+    transform: translateY(-80px);
+} 
+.slideY-enter-active, .slideY-leave-active {
+    transition: all 0.3s ease-in;
+}
