@@ -55,6 +55,7 @@ php artisan migrate
 ```sh
 php artisan db:seed
 ```
+<br />
 
 ### 8. Jalankan dua perintah ini terminal yang berbeda
 
